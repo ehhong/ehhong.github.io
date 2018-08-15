@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # Hydeout
+=======
+<<<<<<< HEAD
+# Hyde
+>>>>>>> 6bb5f59f46b8ff15e1b31dc2e1037345a4ca37de
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
 theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
@@ -163,5 +168,13 @@ You can see the full set of partials you can replace in the
 * For Google Analytics support, define a `google_analytics` variable with
   your property ID in your config file.
 
+<<<<<<< HEAD
 There's also a bunch of minor tweaks and adjustments throughout the
 theme. Hope this works for you!
+=======
+<3
+=======
+# ehhong.github.io
+personal website
+>>>>>>> a8c8caa310a0e06f5ca1ebc8bbefe35eb1a504b0
+>>>>>>> 6bb5f59f46b8ff15e1b31dc2e1037345a4ca37de
