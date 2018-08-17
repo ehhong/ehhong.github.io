@@ -23,7 +23,7 @@
 */
 
 body {
-  color: rgba(255,255,255,.75);
+  color: $gray-4;
   background-color: $sidebar-bg-color;
   background-image: linear-gradient(
     to bottom,
@@ -48,7 +48,7 @@ body {
     margin-bottom: $heading-spacing;
 
     a {
-      color: inherit;
+      color: $gray-5;
       &:hover { color: $sidebar-title-color; }
     }
 
@@ -90,13 +90,13 @@ body {
 // Make header elements blend into sidebar / background
 .container > header {
   background: transparent;
-  color: white;
+  color: $gray-5;
   margin: ($heading-spacing - $section-spacing)
           $section-spacing
           $section-spacing;
 
   h1, h2 {
-    color: white;
+    color: $gray-5;
 
     &:last-child {
       margin-bottom: 0;
@@ -150,8 +150,8 @@ body {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     > * {
-      max-height: 100vh; 
-      overflow-y: auto; 
+      max-height: 100vh;
+      overflow-y: auto;
       -webkit-overflow-scrolling: touch;
     }
   }
@@ -220,25 +220,26 @@ body {
 ----------------------------------------------------------- */
 
 #sidebar a {
-  color: #fff;
+  color: $gray-5;
 
   svg {
-    fill: rgba(255, 255, 255, 0.85);
+    fill: $gray-5;
   }
 
   &:hover, &:focus, &.active {
-    svg { fill: #fff; }
+    svg { fill: $mustard; }
   }
 
   &:hover, &:focus {
-    text-decoration: underline;
+    color: $mustard;
+    text-decoration: none;
     &.icon {
       text-decoration: none;
     }
   }
 
   &.active {
-    font-weight: bold;
+    color: $mustard;
   }
 }
 
