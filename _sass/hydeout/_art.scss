@@ -1,0 +1,17 @@
+img.art {
+  margin: 0 0 0 0;
+  border-radius: 0px;
+}
+
+img.vertical {
+  @extend img.art;
+  max-height: 650px;
+  max-width: auto
+}
+
+h1.art {
+  font-style: italic;
+  line-height: 1;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+}
