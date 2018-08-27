@@ -45,7 +45,7 @@ I created illustrations and article layouts for an international children’s ed
 ### High School Orchestra Concertmaster
 I led and helped teach my high school’s top orchestra, I organized chamber groups, and I played as a violinist in *The Addams Family Musical.*
 <p class="message">
-  favorite memories: playing <em>The Suite from the Polar Express</em> at California Adventure, performing the Wii Mii Channel music in a string quartet (with a whistle!), performing <em>Danz&oacute;n No. 2</em> with a full symphony orchestra
+  favorite memories: playing <em>The Suite from the Polar Express</em> at California Adventure, performing the Wii Mii Channel music in a string quartet, performing <em>Danz&oacute;n No. 2</em> with a full symphony orchestra
 </p>
 ### High School Science Olympiad Team Captain
 I managed administrative aspects of my high school's Science Olympiad team and participated in engineering events at annual tournaments.
