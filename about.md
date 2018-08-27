@@ -20,7 +20,7 @@ sidebar_link: true
 
 ## current roles
 ### [CS50](https://cs50.harvard.edu/) Teaching Fellow
-I teach during weekly sections, hold office hours, and grade student submissions for Harvard's introductory computer science course.
+I teach during weekly sections, hold office hours, and grade student homework submissions for Harvard's introductory computer science course.
 ### Chinatown Afterschool Grade Counselor
 I lead and plan educational activities for an after school program for low-income elementary school students in Boston's Chinatown.
 <p class="message">
