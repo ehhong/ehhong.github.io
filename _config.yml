@@ -5,6 +5,7 @@ highlighter:      rouge
 # Setup
 title:            emily hong
 url:              https://ehhong.github.io
+# description:      welcome!
 
 paginate:         5
 # paginate_path:    '/page:num'
