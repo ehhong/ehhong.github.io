@@ -8,7 +8,7 @@ sidebar_link: true
 ### Harvard University.
 *Pursuing Bachelor of Arts in Computer Science, 2021*
 <p class="message">
-  favorite classes: K-12 math education, Chinese immigration in the US
+  favorite classes: K-12 math education, Chinese immigration in the US, introduction to mathematical proofs (sets, groups, and topology)
 </p>
 ### Capistrano Valley High School
 *IB Diploma Recipient, 2017*
