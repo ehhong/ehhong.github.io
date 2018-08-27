@@ -23,6 +23,9 @@ sidebar_link: true
 I teach during weekly sections, hold office hours, and grade student submissions for Harvard's introductory computer science course.
 ### Chinatown Afterschool Grade Counselor
 I lead and plan educational activities for an after school program for low-income elementary school students in Boston's Chinatown.
+<p class="message">
+  favorite memories: creating a vocabulary game to help students prepare for the SSAT, helping kids make slime
+</p>
 ### Women in CS Member
 I connect with and promote women in computer science at Harvard.
 
@@ -36,15 +39,24 @@ I adapted CS50 curriculum for high school students taking AP Computer Science Pr
 </p>
 ### [Ottiya](https://ottiya.com/) Design Editor Intern
 I created illustrations and article layouts for an international children’s education magazine.
+<p class="message">
+  favorite memories: learning about architectural considerations for playgrounds, seeing the magazine in print
+</p>
 ### High School Orchestra Concertmaster
 I led and helped teach my high school’s top orchestra, I organized chamber groups, and I played as a violinist in *The Addams Family Musical.*
 <p class="message">
-  favorite memories: performing the Wii Mii Channel music in a string quartet (with a whistle!), performing <em>Danz&oacute;n No. 2</em> with a full symphony orchestra
+  favorite memories: playing <em>The Suite from the Polar Express</em> at California Adventure, performing the Wii Mii Channel music in a string quartet (with a whistle!), performing <em>Danz&oacute;n No. 2</em> with a full symphony orchestra
 </p>
 ### High School Science Olympiad Team Captain
 I managed administrative aspects of my high school's Science Olympiad team and participated in engineering events at annual tournaments.
+<p class="message">
+  favorite memories: recruiting an almost entirely new team after most of the previous one graduated, building a helicopter out of balsa wood & rubber bands
+</p>
 ### Math Tutor and Violin Teacher
 I tutored in Algebra II/Trigonometry and AP Statistics, and I taught private violin lessons.
+<p class="message">
+  favorite memory: becoming a mentor to my middle school violin student
+</p>
 
 ---
 
