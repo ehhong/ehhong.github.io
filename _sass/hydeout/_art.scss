@@ -10,23 +10,36 @@
   max-width: auto;
 }
 
-.profile {
-  @extend img;
-  margin: 0 1em;
-  float: right;
-  max-height: 250px;
-  max-width: auto;
-}
-
-.box {
-   display: flex;
-   align-items: center;
-}
-
 .arttitle {
   @extend h1;
   font-style: italic;
   line-height: 1;
   margin-top: 0rem;
   margin-bottom: 3rem;
+}
+
+// styling for contact.html
+
+.profile {
+  @extend img;
+  margin: 0 1em;
+  max-height: 250px;
+  max-width: auto;
+}
+
+.box {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  @media (min-width: $large-breakpoint) {
+    justify-content: left;
+  }
+}
+
+.textbox {
+  @media (min-width: $large-breakpoint) {
+    max-width: 28vw;
+  }
 }
