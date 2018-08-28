@@ -7,7 +7,20 @@
 .vertical {
   @extend .art;
   max-height: 650px;
-  max-width: auto
+  max-width: auto;
+}
+
+.profile {
+  @extend img;
+  margin: 0 1em;
+  float: right;
+  max-height: 250px;
+  max-width: auto;
+}
+
+.box {
+   display: flex;
+   align-items: center;
 }
 
 .arttitle {
