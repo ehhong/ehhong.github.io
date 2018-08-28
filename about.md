@@ -27,7 +27,6 @@ I lead and plan educational activities for an after school program for low-incom
   favorite memories: creating a vocabulary game to help students prepare for the SSAT, helping kids make slime
 </p>
 ### Women in CS Member
-I connect with and promote women in computer science at Harvard.
 
 ---
 
