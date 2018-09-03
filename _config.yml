@@ -25,5 +25,4 @@ sidebar_home_link:  true
 github:
   repo:             https://github.com/ehhong
 
-google_analytics_url: https://www.googletagmanager.com/gtag/js?id=UA-125086399-1
-google_analytics_id: UA-125086399-1
+google_analytics: UA-125086399-1
