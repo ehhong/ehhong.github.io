@@ -6,7 +6,7 @@ sidebar_link: true
 
 ## education
 ### Harvard University
-*Pursuing Bachelor of Arts in Computer Science, 2021*
+*Pursuing Bachelor of Arts in Computer Science & secondary in Educational Studies, 2021*
 <p class="message">
   favorite classes: K-12 math education, Chinese immigration in the US, introduction to mathematical proofs (sets, groups, and topology)
 </p>
@@ -20,7 +20,11 @@ sidebar_link: true
 
 ## current roles
 ### [CS50](https://cs50.harvard.edu/) Teaching Fellow
-I teach during weekly sections, hold office hours, and grade student work for Harvard's introductory computer science course.
+I teach weekly sections for about 25 students, hold office hours, and grade student work for Harvard's introductory computer science course.
+<p class="message">
+  favorite memories: working with students one-on-one and helping them reach "a-ha" moments
+</p>
+
 ### Chinatown Afterschool Grade Counselor
 I lead and plan educational activities for an after school program for low-income elementary school students in Boston's Chinatown.
 <p class="message">
