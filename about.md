@@ -19,11 +19,8 @@ sidebar_link: true
 ---
 
 ## current roles
-### [CS50](https://cs50.harvard.edu/) Teaching Fellow
-I teach weekly sections for about 25 students, hold office hours, and grade student work for Harvard's introductory computer science course.
-<p class="message">
-  favorite memories: working with students one-on-one and helping them reach "a-ha" moments
-</p>
+### [Creative Computing Lab](http://creativecomputing.gse.harvard.edu/guide/) Research Assistant
+I analyze data from aspiring computer science teachers' Scratch projects and build software tools to present analytics and build teacher communities.
 
 ### Chinatown Afterschool Grade Counselor
 I lead and plan educational activities for an after school program for low-income elementary school students in Boston's Chinatown.
@@ -35,6 +32,18 @@ I lead and plan educational activities for an after school program for low-incom
 ---
 
 ## previous roles
+### Zubale Product Engineering Intern
+I redesigned Zubale’s website and created high fidelity mockups using Photoshop and InVision. I also refined Zubale’s mobile app using React Native.
+<p class="message">
+  favorite memories: extending my graphic design experience to UI/UX work, exploring Mexico City for the first time
+</p>
+
+### [CS50](https://cs50.harvard.edu/) Teaching Fellow
+I taught weekly sections for about 25 students, held office hours, and graded student work for Harvard's introductory computer science course.
+<p class="message">
+  favorite memories: working with students one-on-one and helping them reach "a-ha" moments
+</p>
+
 ### [CS50](https://cs50.harvard.edu/) AP Intern
 I adapted CS50 curriculum for high school students taking AP Computer Science Principles. I updated outdated materials and created new reference sheets and graphics illustrating computer science concepts. I also helped run a CS50 educator workshop and helped teach a 2-week web development class.
 <p class="message">
@@ -64,6 +73,9 @@ I tutored in Algebra II/Trigonometry and AP Statistics, and I taught private vio
 ---
 
 ## past projects
+### [Asian American Identity Exploration](https://ehhong.github.io/identityexploration/)
+I conducted interviews, designed illustrations, and created a website to provide a platform for stories of Asian American identity at Harvard University.
+
 ### [Bergbuddies](https://github.com/ehhong/bergbuddies)
 I built a web application using Flask, Python, SQLite, Bootstrap, HTML/CSS, & Github to help
 students find and make friends at the Harvard freshman dining hall as a CS50 final project.
