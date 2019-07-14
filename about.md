@@ -19,8 +19,8 @@ sidebar_link: true
 ---
 
 ## current roles
-### [Creative Computing Lab](http://creativecomputing.gse.harvard.edu/guide/) Research Assistant
-I analyze data from aspiring computer science teachers' Scratch projects and build software tools to present analytics and build teacher communities.
+### Facebook University Engineering Intern
+I am developing a mobile iOS application of our own design with a small team. We use Objective-C and construct the app from the ground up.
 
 ### Chinatown Afterschool Grade Counselor
 I lead and plan educational activities for an after school program for low-income elementary school students in Boston's Chinatown.
@@ -32,7 +32,13 @@ I lead and plan educational activities for an after school program for low-incom
 ---
 
 ## previous roles
-### Zubale Product Engineering Intern
+### [Creative Computing Lab](http://creativecomputing.gse.harvard.edu/guide/) Research Assistant
+I built tools to support data analysis of aspiring computer science teachers' Scratch projects from [Getting Unstuck](https://gettingunstuck.gse.harvard.edu/). I wrote a [Python script](https://github.com/ehhong/scratch-studio-scrape) to batch download Scratch projects, and a [Javascript program](https://github.com/ehhong/scratch-csv) to organize the data. I conducted in-depth analyses of Scratch projects to propose potential avenues for automated project evaluation.
+<p class="message">
+  favorite memories: experiencing the power of open-ended prompts to enable and inspire creativity
+</p>
+
+### Zubale Software Development Intern
 I redesigned Zubale’s website and created high fidelity mockups using Photoshop and InVision. I also refined Zubale’s mobile app using React Native.
 <p class="message">
   favorite memories: extending my graphic design experience to UI/UX work, exploring Mexico City for the first time
@@ -86,4 +92,4 @@ scores and calculate relevant statistics.
 ---
 
 ## technical skills
-I am proficient in C, Java, Python, JavaScript, SQL, HTML/CSS. I also know how to use Photoshop, Illustrator, Indesign, and Github.
+I am proficient in C, Objective-C, Python, Java, JavaScript, SQL, HTML/CSS. I also know how to use Photoshop, Illustrator, Indesign, Xcode, and Github.
