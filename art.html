@@ -1,0 +1,57 @@
+---
+layout: page
+title: art & design
+sidebar_link: true
+---
+
+{% assign col1 = "" %}
+{% assign col2 = "" %}
+
+{% for image in site.static_files %}
+    {% if image.path contains 'art/' %}
+        <!-- get image path -->
+        {% assign imagepath = image.path | split: "/" %}
+        <!-- get image name from image path -->
+        {% for subpath in imagepath %}
+            {% if forloop.index0 == 3 %}
+                {% assign imagename = subpath | replace: "-", " " | replace: ".png", "" | replace: ".jpg", "" %}
+                {% capture url %}img={{ subpath | uri_escape }}{% endcapture %}
+            {% endif %}
+        {% endfor %}
+
+        {% capture img_display %}
+            <a href="image?{{ url }}">
+                <div class="img-wrapper" title="{{ imagename }}">
+                    <img src="{{ image.path }}" alt="{{ imagename }}">
+                </div>
+            </a>
+        {% endcapture %}
+
+        <!-- alternate adding to col1 and col2 -->
+        {% capture u %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {% if imagename == "lunchbox moment" %}
+            {% assign lunchbox_moment = img_display %}
+        {% elsif u == 'even' %}
+            {% assign col1 = col1 | append: img_display %}
+        {% else %}
+            {% assign col2 = col2 | append: img_display %}
+        {% endif %}
+
+    {% endif %}
+{% endfor %}
+
+<div class="row">
+    <div class="column">
+        {{ col1 }}
+    </div>
+    <div class="column">
+        {{ col2 }}
+        <!-- special case, super long image -->
+        {{ lunchbox_moment }}
+    </div>
+</div>
+
+<p>for more works, check out my
+    <a href="https://www.instagram.com/elyhng/">instagram (@elyhng)</a> and
+    <a href="https://society6.com/ehhmily">society6</a>
+</p>
