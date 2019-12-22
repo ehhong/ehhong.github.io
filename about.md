@@ -5,11 +5,10 @@ sidebar_link: true
 ---
 
 ## education
-### Harvard University
+### Harvard College
 *Pursuing Bachelor of Arts in Computer Science & secondary in Educational Studies, 2021*
 <p class="message">
-  favorite classes: K-12 math education, Chinese immigration in the US, introduction to mathematical proofs (sets, groups, and topology)
-</p>
+  favorite classes: K-12 math education, Chinese immigration in the US, introduction to mathematical proofs, data structures and algorithms, systems programming</p>
 ### Capistrano Valley High School
 *IB Diploma Recipient, 2017*
 <p class="message">
@@ -19,26 +18,26 @@ sidebar_link: true
 ---
 
 ## current roles
-### Facebook University Engineering Intern
-I am developing a mobile iOS application of our own design with a small team. We use Objective-C and construct the app from the ground up.
-
 ### Chinatown Afterschool Grade Counselor
 I lead and plan educational activities for an after school program for low-income elementary school students in Boston's Chinatown.
 <p class="message">
-  favorite memories: creating a vocabulary game to help students prepare for the SSAT, helping kids make slime
+  favorite memories: creating a vocabulary game to help students prepare for the SSAT, working on math and word riddles with the kids
 </p>
-### Women in CS Member
+### Women in CS Mentor
 
 ---
 
 ## previous roles
+### [Facebook University Engineering](https://www.facebook.com/careers/FBUEngineering) Intern
+I designed and developed an itinerary planning mobile iOS application with a small team. We used Xcode with Objective-C and constructed the app from the ground up.
+
 ### [Creative Computing Lab](http://creativecomputing.gse.harvard.edu/guide/) Research Assistant
 I built tools to support data analysis of aspiring computer science teachers' Scratch projects from [Getting Unstuck](https://gettingunstuck.gse.harvard.edu/). I wrote a [Python script](https://github.com/ehhong/scratch-studio-scrape) to batch download Scratch projects, and a [Javascript program](https://github.com/ehhong/scratch-csv) to organize the data. I conducted in-depth analyses of Scratch projects to propose potential avenues for automated project evaluation.
 <p class="message">
   favorite memories: experiencing the power of open-ended prompts to enable and inspire creativity
 </p>
 
-### Zubale Software Development Intern
+### [Zubale](https://www.zubale.com/) Software Development Intern
 I redesigned Zubale’s website and created high fidelity mockups using Photoshop and InVision. I also refined Zubale’s mobile app using React Native.
 <p class="message">
   favorite memories: extending my graphic design experience to UI/UX work, exploring Mexico City for the first time
@@ -70,26 +69,20 @@ I managed administrative aspects of my high school's Science Olympiad team and p
 <p class="message">
   favorite memories: recruiting an almost entirely new team after most of the previous one graduated, building a helicopter out of balsa wood & rubber bands
 </p>
-### Math Tutor and Violin Teacher
-I tutored in Algebra II/Trigonometry and AP Statistics, and I taught private violin lessons.
-<p class="message">
-  favorite memory: becoming a mentor to my middle school violin student
-</p>
-
 ---
 
 ## past projects
 ### [Asian American Identity Exploration](https://ehhong.github.io/identityexploration/)
-I conducted interviews, designed illustrations, and created a website to provide a platform for stories of Asian American identity at Harvard University.
+I conducted fifteen interviews, designed illustrations, and created a website to provide a platform for stories of Asian American identity at Harvard University.
+
+### [Mytinerary](https://github.com/MichaelVargas31/Mytinerary)
+I designed and built an itinerary-planning mobile application with Xcode and Objective-C with a small team. The application allows users to input events and automatically calculates travel routes between locations.
 
 ### [Bergbuddies](https://github.com/ehhong/bergbuddies)
 I built a web application using Flask, Python, SQLite, Bootstrap, HTML/CSS, & Github to help
 students find and make friends at the Harvard freshman dining hall as a CS50 final project.
-### Orchestra Grading Program
-I created a program using Java to keep track of high school orchestra students’ music testing
-scores and calculate relevant statistics.
 
 ---
 
 ## technical skills
-I am proficient in C, Objective-C, Python, Java, JavaScript, SQL, HTML/CSS. I also know how to use Photoshop, Illustrator, Indesign, Xcode, and Github.
+I am proficient in Python, C, C++, Objective-C, Java, JavaScript, SQL, HTML/CSS. I also know how to use Photoshop, Illustrator, Indesign, Xcode, and Github.
