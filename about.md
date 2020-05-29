@@ -8,7 +8,7 @@ sidebar_link: true
 ### Harvard College
 *Pursuing Bachelor of Arts in Computer Science & secondary in Educational Studies, 2021*
 <p class="message">
-  favorite classes: K-12 math education, Chinese immigration in the US, introduction to mathematical proofs, data structures and algorithms, systems programming</p>
+  favorite classes: K-12 math education, Chinese immigration in the US, data structures and algorithms, systems programming, the politics of virtual realities, the design of American cities</p>
 ### Capistrano Valley High School
 *IB Diploma Recipient, 2017*
 <p class="message">
@@ -18,11 +18,17 @@ sidebar_link: true
 ---
 
 ## current roles
-### Chinatown Afterschool Grade Counselor
-I lead and plan educational activities for an after school program for low-income elementary school students in Boston's Chinatown.
+### [MongoDB](https://www.mongodb.com/careers/departments/college-students) Software Engineering Intern
+
+### [PBHA Chinatown Afterschool](http://pbha.org/programs/chinatown-afterschool/) Director
+I co-run an after school program for 40+ low-income elementary school students in Boston's Chinatown. I oversee a team of 40+ undergraduate counselors, communicate with parents and schools, manage funding, market our organization, and plan educational and enriching activities.
 <p class="message">
-  favorite memories: creating a vocabulary game to help students prepare for the SSAT, working on math and word riddles with the kids
+  favorite memories: acting out animals with first graders at pick up, organizing kids to help distribute snacks, leading fifth and sixth graders through math and word riddles
 </p>
+
+### [Harv Design Collective](https://www.instagram.com/harvdesignco/) Board Member
+I'm helping build Harvard's first club dedicated to digital arts and design.
+
 ### Women in CS Mentor
 
 ---
@@ -59,16 +65,13 @@ I created illustrations and article layouts for an international children’s ed
 <p class="message">
   favorite memories: learning about architectural considerations for playgrounds, seeing the magazine in print
 </p>
+
 ### High School Orchestra Concertmaster
 I led and helped teach my high school’s top orchestra, I organized chamber groups, and I played as a violinist in *The Addams Family Musical.*
 <p class="message">
   favorite memories: playing <em>The Suite from the Polar Express</em> at California Adventure, performing the Wii Mii Channel music in a string quartet, performing <em>Danz&oacute;n No. 2</em> with a full symphony orchestra
 </p>
-### High School Science Olympiad Team Captain
-I managed administrative aspects of my high school's Science Olympiad team and participated in engineering events at annual tournaments.
-<p class="message">
-  favorite memories: recruiting an almost entirely new team after most of the previous one graduated, building a helicopter out of balsa wood & rubber bands
-</p>
+
 ---
 
 ## past projects
