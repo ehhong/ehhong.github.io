@@ -18,15 +18,13 @@ sidebar_link: true
 ---
 
 ## current roles
-### [MongoDB](https://www.mongodb.com/careers/departments/college-students) Software Engineering Intern
-
 ### [PBHA Chinatown Afterschool](http://pbha.org/programs/chinatown-afterschool/) Director
 I co-run an after school program for 40+ low-income elementary school students in Boston's Chinatown. I oversee a team of 40+ undergraduate counselors, communicate with parents and schools, manage funding, market our organization, and plan educational and enriching activities.
 <p class="message">
   favorite memories: acting out animals with first graders at pick up, organizing kids to help distribute snacks, leading fifth and sixth graders through math and word riddles
 </p>
 
-### [Harv Design Collective](https://www.instagram.com/harvdesignco/) Board Member
+### [Harvard Design Collective](http://www.harvarddesignco.com/) Board Member and Education Chair
 I'm helping build Harvard's first club dedicated to digital arts and design.
 
 ### Women in CS Mentor
@@ -34,6 +32,10 @@ I'm helping build Harvard's first club dedicated to digital arts and design.
 ---
 
 ## previous roles
+### [Katie Porter Campaign for Congress](https://katieporter.com/) Data and Design Intern
+
+### [MongoDB](https://www.mongodb.com/careers/departments/college-students) Software Engineering Intern
+
 ### [Facebook University Engineering](https://www.facebook.com/careers/FBUEngineering) Intern
 I designed and developed an itinerary planning mobile iOS application with a small team. We used Xcode with Objective-C and constructed the app from the ground up.
 
@@ -60,16 +62,11 @@ I adapted CS50 curriculum for high school students taking AP Computer Science Pr
 <p class="message">
   favorite memories: leading discussions on the personal difficulties and triumphs of teaching CS, meeting teachers from New Jersey to Costa Rica, creating a flowchart to help teachers organize CS50 tools
 </p>
+
 ### [Ottiya](https://ottiya.com/) Design Editor Intern
 I created illustrations and article layouts for an international children’s education magazine.
 <p class="message">
   favorite memories: learning about architectural considerations for playgrounds, seeing the magazine in print
-</p>
-
-### High School Orchestra Concertmaster
-I led and helped teach my high school’s top orchestra, I organized chamber groups, and I played as a violinist in *The Addams Family Musical.*
-<p class="message">
-  favorite memories: playing <em>The Suite from the Polar Express</em> at California Adventure, performing the Wii Mii Channel music in a string quartet, performing <em>Danz&oacute;n No. 2</em> with a full symphony orchestra
 </p>
 
 ---
