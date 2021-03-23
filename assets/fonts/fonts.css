@@ -1,4 +1,12 @@
 @font-face {
-font-family: 'Gatwick-Bold';
-src: local('Gatwick-Bold.otf') format('opentype');
+    font-family: 'Gatwick';
+    src: url('Gatwick-Bold.eot');
+    src: url('Gatwick-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gatwick-Bold.woff2') format('woff2'),
+        url('Gatwick-Bold.woff') format('woff'),
+        url('Gatwick-Bold.ttf') format('truetype'),
+        url('Gatwick-Bold.svg#Gatwick-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }

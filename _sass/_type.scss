@@ -92,5 +92,7 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-
+    h1 {
+        -webkit-text-stroke-width: 1.5px;
+    }
 }
