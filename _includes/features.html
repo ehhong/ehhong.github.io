@@ -1,0 +1,23 @@
+{% for item in site.data.features %}
+<div class="feature">
+    {% if item.link !=  nil %}
+        <a href="{{ item.link }}" class="feature-image">
+    {% endif %}
+            <div class="feature-image">
+                <img id="{{ item.img-alt }}" src="{{ item.img-path }}" alt="{{ item.img-alt }}">
+            </div>
+    {% if item.link != nil %}
+        </a>
+    {% endif %}
+    <div class="feature-description">
+        {% if item.link != nil %}
+            <a href="{{ item.link }}" class="feature-description">
+        {% endif %}
+                <h3 class="highlight">{{ item.title }}</h3>
+        {% if item.link != nil %}
+            </a>
+        {% endif %}
+        <p>{{ item.description }}</p>
+    </div>
+</div>
+{% endfor %}

@@ -1,13 +1,32 @@
 ---
-layout: index
+layout: default
 title: home
 ---
+<!-- clouds -->
+<div class="x-slider">
+    <div class="x-slider-row"></div>
+</div>
 
-<img src="assets/self.png" alt="self introduction">
+<img id="computer" class="home" src="assets/images/computer.png" alt="computer">
+<img id="lamp" class="home" src="assets/images/lamp.png" alt="lamp">
+<img id="drawing" class="home" src="assets/images/drawing.png" alt="drawing">
+<img id="leaves" class="home" src="assets/images/leaves.png" alt="leaves and pencil">
+<img id="pencils" class="home" src="assets/images/pencils.png" alt="pencils">
 
-<h1>hello! :-)</h1>
-<p>I am a computer science student at Harvard driven by wanting to learn as much about the world as I can, and I share my perspective on those things through art, technology, and education.
-  I am most excited by the intersections between fields and applications of academia to everyday life.</p>
-<p>When I'm not studying, you can find me doodling in a park, tickling the ivories, working on DIY projects, or playing with my food.
-  Being from Southern California, I'm unsurprisingly a big fan of beach sunsets, fresh fruit, and Asian foods.
-  I tend to stay pretty busy - look <a href="{{ site.url }}/about">here</a> to read about things I have done.</p>
+<div id="intro">
+    <h1 id="first-name">emily</h1><h1 id="last-name"> hong</h1><h1 id="is"> is:</h1><br>
+    <a href="/about"><h2>studying @ Harvard</h2></a><br>
+    <a href="/code"><h2>coding</h2></a><br>
+    <a href="/illustration"><h2>illustrating</h2></a><br>
+    <a href="/about"><h2>teaching</h2></a>
+</div>
+
+<div id="left" class="box-flap"></div>
+<div id="right" class="box-flap"></div>
+<div id="box">
+    <div class="box-title">
+        <a href="#stuff"><h3 id="stuff" class="box-title">↓ stuff I've done</h3></a>
+    </div>
+
+    {% include features.html %}
+</div>

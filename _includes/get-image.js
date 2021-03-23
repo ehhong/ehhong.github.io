@@ -1,3 +1,5 @@
+var img_dir_path = "assets/illustration/";
+
 // this script will automatically get image from URL
 var getImages = function () {
     var queryString = document.location.search.split("+").join(" ");
@@ -13,7 +15,7 @@ var getImages = function () {
         // here you have to manage this use case : redirect or print a message to user
     } else {
         var image = document.getElementById('image');
-        image.src = "assets/art/" + file_str;
+        image.src = img_dir_path + file_str;
         image.alt = file_str;
 
         var title = document.getElementById('page-title');
@@ -26,9 +28,9 @@ var getImages = function () {
         var period_idx = file_str.indexOf(".");
         var serial_file_str = file_str.substring(0, period_idx) + "_" + ctr + file_str.substring(period_idx, file_str.length);
 
-        while (doesFileExist("assets/art/" + serial_file_str)) {
+        while (doesFileExist(img_dir_path + serial_file_str)) {
             var serial_img = document.createElement('img');
-            serial_img.src =  "assets/art/" + serial_file_str;
+            serial_img.src =  img_dir_path + serial_file_str;
             document.getElementsByClassName('content')[0].appendChild(serial_img);
 
             serial_file_str = serial_file_str.replace(ctr, ++ctr);

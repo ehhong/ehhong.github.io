@@ -1,0 +1,44 @@
+
+// colors
+$beige: #ddcfaf !default;
+$brown: #A5802F !default;
+$dark-gray: #333333 !default;
+$teal: #0CA5A0 !default;
+$bright-teal: #39D3B5 !default;
+$dark-teal: #20666d !default;
+$red: #ba3c3c !default;
+$yellow: #F9E426 !default;
+$clear-yellow: #F9E426bb !default;
+
+// sizes
+$nav-height: calc(min(8vh, 45px));
+$nav-width: 90vw;
+
+$border-width: 2vw;
+
+// cloud slider
+// infinite x-slide: https://designshack.net/articles/css/infinitephotobanner/
+$img-w: 9197px; // cloud image original dimensions
+$img-h: 3934px;
+$shrink: 9;
+$ratio: 1 / $shrink;
+$speed: 45s;
+
+// box
+$box-w: calc(min(max(1000px, 65vw), 80vw));
+$box-flap-w: calc(max(9vw, 115px));
+$box-flap-h: 4vh;
+$box-flap-angle: 20deg;
+$box-x-margin: calc((100vw - (2 * #{$border-width}) - #{$box-w}) / 2);
+
+// feature
+$feature-h: 300px;
+$feature-overflow: 5vw;
+$feature-w: calc(#{$box-w} + #{$feature-overflow} * 2);
+
+// text
+$text-x-indent: 20vw;
+
+// illustration page
+$num-col: 3;
+$img-margin-w: 1vw;

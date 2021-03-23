@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+// main body
+.main {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    border: $border-width solid white;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: $beige;
+}
+
+// cloud slider
+// infinite x-slide: https://designshack.net/articles/css/infinitephotobanner/
+.x-slider {
+    position: absolute;
+    width: 100vw;
+    height: $img-h * $ratio;
+    top: calc(45vh - #{$img-h * $ratio / 2});
+    overflow: hidden;
+
+    .x-slider-row {
+        width: 100%;
+        height: $img-h * $ratio;
+        background-image: url('../images/clouds.png');
+        background-size: $img-w * $ratio $img-h * $ratio;
+        background-position-y: center;
+        background-repeat: repeat-x;
+        animation: x-slide $speed linear infinite;
+    }
+}
+
+@keyframes x-slide {
+  from { background-position-x: 0; }
+  to   { background-position-x: -$img-w * $ratio; }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+img.home {
+    margin-top: calc(#{$nav-height} - #{$border-width} - 1px);
+    outline: none;
+    position: absolute;
+    z-index: 2;
+    display: none; // make visible after resized
+
+    &#lamp {
+        left: 2vw;
+    }
+    &#leaves {
+        right: 3vw;
+    }
+    &#computer {
+        right: 11vw;
+    }
+    &#pencils {
+        right: 25vw;
+    }
+    &#drawing {
+        top: 52vh;
+        right: 10vw;
+    }
+}
+
+// home page text
+#intro {
+    position: relative;
+    z-index: 3;
+    margin: 45vh $text-x-indent 0;
+
+    h1 {
+        display: inline;
+        &#first-name {
+            color: $dark-teal;
+        }
+        &#last-name {
+            color: $red;
+        }
+        &#is {
+            color: transparent;
+        }
+    }
+
+    h2 {
+        display: inline;
+        line-height: 1.4;
+        padding: 0 0.2em;
+        &:hover {
+            background-color: $yellow;
+        }
+    }
+}
+
+// box
+#box {
+    width: $box-w;
+    padding-bottom: 5vh;
+    background-color: $brown;
+    margin: 0 auto; // center
+    background-image: url('../images/cardboard.jpg');
+    background-size: cover;
+
+    div.box-title {
+        padding: 2vh calc(#{$text-x-indent} - #{$box-x-margin});
+        margin: 0 0 5vh;
+    }
+    h3.box-title {
+        display: inline;
+        &:hover {
+            text-decoration: underline 3px;
+        }
+    }
+}
+
+.box-flap {
+    height: $box-flap-h;
+    width: $box-flap-w;
+    background-color: $brown;
+    position: relative;
+    margin: 0;
+    vertical-align: bottom;
+    background-image: url('../images/cardboard.jpg');
+
+    &#left {
+        left: calc(#{$box-x-margin} - #{$box-flap-w});
+        transform: rotate(#{$box-flap-angle});
+        transform-origin: bottom right;
+        float: left;
+    }
+    &#right {
+        left: calc(#{$box-x-margin} + #{$box-w});
+        transform: rotate(-#{$box-flap-angle});
+        transform-origin: bottom left;
+    }
+}
+
+// features
+.feature {
+    width: $feature-w;
+    position: relative;
+    left: calc(-50vw + 50% + #{$box-x-margin} + #{$border-width} - 5vw);
+    margin-bottom: 5vh;
+    display: flex;
+}
+
+.feature-image {
+    width: calc(0.4 * #{$feature-w});
+    height: 100%;
+
+    img {
+        max-width: 100%;
+        max-height:100%;
+        object-fit: cover;
+        display: block;
+    }
+}
+
+div.feature-description {
+    width: calc(0.6 * #{$feature-w} - #{$feature-overflow});
+    padding: 0 3vw;
+
+    p {
+        margin-top: 3vh;
+        color: white;
+    }
+}
+
+// mobile
+@media screen and (max-width: 600px) {
+  img.home {
+      margin-top: calc(#{$nav-height} - #{$border-width} - 6px);
+      outline: none;
+      position: absolute;
+      z-index: 2;
+      display: none; // make visible after resized
+
+      &#leaves {
+          right: 2vw;
+      }
+      &#pencils {
+          left: 2vw;
+      }
+      &#computer {
+          left: 32vw;
+      }
+  }
+
+  #intro {
+      padding-top: 45vh;
+      padding-bottom: 10vh;
+      margin: auto;
+      width: 80%;
+
+      h1 {
+          font-size: 2.5rem;
+      }
+      h2 {
+          font-size: 1.5rem;
+          padding: 0;
+      }
+  }
+
+  .box-flap {
+      display: none;
+  }
+
+  #box {
+      width: 100%;
+  }
+
+  .feature {
+      position: static;
+      width: 90%;
+      margin: auto;
+      display: block;
+  }
+
+  .feature-image {
+      width: 100%;
+      display: block;
+  }
+
+  div.feature-description {
+      width: 100%;
+      padding: 2vh 0 2vh 0;
+
+      p {
+          margin-top: 1vh;
+      }
+  }
+}

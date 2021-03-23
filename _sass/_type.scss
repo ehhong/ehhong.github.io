@@ -1,0 +1,96 @@
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: $dark-gray;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+    display: inline;
+
+    &:hover {
+        // background-color: $yellow;
+    }
+}
+
+h1 {
+    font-family: 'Gatwick';
+    font-size: 4rem;
+    margin: 0.5rem 0;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $dark-gray;
+}
+
+h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: $dark-gray;
+    font-size: 1.5rem;
+    line-height: 1.6;
+
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+h4 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: $red;
+    margin-bottom: 0;
+}
+
+.highlight {
+    line-height: 2;
+    background-color: $clear-yellow;
+    padding: 0.5vh 1vh;
+    display: inline;
+}
+
+a {
+    .highlight:hover {
+        background-color: $yellow;
+    }
+}
+
+p {
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+li {
+    @extend p;
+}
+
+b {
+    color: $dark-teal;
+}
+
+a {
+    color: $dark-teal;
+    text-decoration: none;
+    &:hover {
+        color: $teal;
+    }
+    b {
+        &:hover {
+            color: $teal;
+        }
+    }
+}
+
+.red {
+    color: $red;
+}
+
+.nav-link {
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-size: 1rem;
+
+    &:hover {
+        color: $bright-teal;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}

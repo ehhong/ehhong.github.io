@@ -1,0 +1,23 @@
+#tape {
+    width: 30px;
+    height: 80px;
+    background-color: #ffffffcc;
+    position: absolute;
+    top: 180px;
+    left: -18px;
+}
+
+img.profile {
+    float: left;
+    width: calc(max(50%, 300px));
+    object-fit: cover;
+    vertical-align: bottom;
+    margin: 0 2vw 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    img.profile {
+        width: 100%;
+        margin: 0 0 2vh 0;
+    }
+}

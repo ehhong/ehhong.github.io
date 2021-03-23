@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: wide-page
 title: image
-sidebar_link: false
 ---
 
 <!--
@@ -17,7 +16,7 @@ sidebar_link: false
             ...
 -->
 
-<img id="image" src="" alt="placeholder">
+<img class="single" id="image" src="" alt="placeholder">
 
 <script>
     {% include get-image.js %}

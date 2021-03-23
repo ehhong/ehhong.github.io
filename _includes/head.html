@@ -17,14 +17,13 @@
   {% include google-analytics.html %}
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css" />
   {% include font-includes.html %}
 
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
   <!-- Icons -->
-  {% include favicons.html %}
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/{{ site.feed.path | default: 'feed.xml' }}" />
-
-  {% include custom-head.html %}
+  <link rel="shortcut icon" href="{{ site.baseurl }}/citrus.ico" />
 </head>

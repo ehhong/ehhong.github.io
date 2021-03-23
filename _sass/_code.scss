@@ -1,0 +1,12 @@
+#code-image {
+    height: 30vh;
+    float: right;
+    margin: 0 2vw 2vw 2vw;
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    #code-image {
+        margin: 0 0 2vh 0;
+    }
+}
