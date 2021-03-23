@@ -27,6 +27,12 @@ a {
     }
 }
 
+ul {
+    li::marker {
+      color: white;
+      content: "‣  ";
+    }
+}
 
 // navigation bar
 nav {
