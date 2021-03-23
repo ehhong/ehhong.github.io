@@ -1,5 +1,12 @@
 # Setup
+# https://jekyll.github.io/jekyll-seo-tag/usage/
 title:            emily hong
+tagline:          personal website
+description:      Emily Hong's personal website and portfolio page.
 url:              https://ehhong.github.io
+logo:             citrus.ico
 
 google_analytics: UA-125086399-1
+
+plugins:
+    - jekyll-seo-tag
