@@ -1,9 +1,6 @@
 var mobile_img_exclude = new Set(["lamp", "drawing"]);
 
 $(window).on("load", function(){
-    console.log($("#box").offset().left);
-    console.log($(window).width());
-
     var lamp_height = $("img#lamp").height();
     var window_height = $(window).height();
 
@@ -47,4 +44,7 @@ $(window).on("load", function(){
             }
         });
     }
+
+    // clear loading screen
+    $(".loading-screen").addClass("hidden");
 });
