@@ -13,15 +13,21 @@ var getImages = function () {
     if (file_str == undefined) {
         // no value in the query string
         // here you have to manage this use case : redirect or print a message to user
-    } else {
+    } 
+    else {
         var image = document.getElementById('image');
         image.src = img_dir_path + file_str;
         image.alt = file_str;
 
-        var title = document.getElementById('page-title');
+        // allow for vertical scroll if image is very vertical
+        image.addEventListener("load", function(){
+            if (image.height / image.width > 2) {
+                image.style.maxHeight = 'none';
+            }
+        });
+
         var image_title = getTitleFromFileName(file_str);
-        title.innerHTML = image_title.italics();
-        document.title = document.title.replace("image", image_title);
+        document.title =  document.title.replace("image", image_title);
 
         // display serial images if appropriate
         var ctr = 1;
@@ -42,6 +48,8 @@ function getTitleFromFileName(fileName) {
     fileName = fileName.replace(".png", "");
     fileName = fileName.replace(".jpg", "");
     fileName = fileName.replace(/-/g, " ");
+    fileName = fileName.replace(/_/g, "");
+    fileName = fileName.replace("full", "");
     return fileName;
 }
 

@@ -7,8 +7,16 @@ title: illustration
 
 {% for image in site.static_files %}
     {% if image.path contains 'illustration/' %}
-        <!-- don't display serial images on art/design page -->
-        {% unless image.path contains '_' %}
+        <!-- don't display serial images on art/design page (_1, _2, etc.), 
+             don't display full images (_full) -->
+        {% if image.path contains '_' %}
+            {% assign do_not_include = true %}
+        {% endif %}
+        <!-- except, actually display thumbnails (_thumb) -->
+        {% if image.path contains '_thumb' %}
+            {% assign do_not_include = false %}
+        {% endif %}
+        {% unless do_not_include == true %}
             <!-- get image path -->
             {% assign imagepath = image.path | split: "/" %}
 
@@ -21,6 +29,11 @@ title: illustration
             {% endfor %}
 
             {% capture img_display %}
+                <!-- slightly modify file names for display in case of different thumb / full images -->
+                {% if imagename contains '_thumb' %}
+                    {% assign url = url | replace: "thumb", "full" %}
+                    {% assign imagename = imagename | replace: "_thumb", "" %}
+                {% endif %}
                 <div class="flex-item">
                     <a class="art-image" href="image?{{ url }}">
                         <div class="img-wrapper" title="{{ imagename }}">
@@ -31,6 +44,8 @@ title: illustration
             {% endcapture %}
             {% assign images = images | append: img_display %}
         {% endunless %}
+        <!-- reset do not include flag -->
+        {% assign do_not_include = false %}
     {% endif %}
 {% endfor %}
 
