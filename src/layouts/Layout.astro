@@ -1,0 +1,12 @@
+---
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import BaseLayout from './BaseLayout.astro';
+---
+
+<BaseLayout extraClasses="bg-beige md:bg-white">
+  <Navigation />
+  <main class="bg-beige w-full md:border-[2vw] min-h-screen border-white">
+    <slot />
+  </main>
+</BaseLayout>

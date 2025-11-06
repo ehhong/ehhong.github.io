@@ -1,0 +1,219 @@
+---
+import clouds from "../assets/landing/clouds.png";
+import computer from "../assets/landing/computer.png";
+import lamp from "../assets/landing/lamp.png";
+import drawing from "../assets/landing/drawing.png";
+import leaves from "../assets/landing/leaves.png";
+import pencils from "../assets/landing/pencils.png";
+import cardboard from "../assets/landing/cardboard.jpg";
+import chapImage from "../assets/CHAP.png";
+---
+
+<div class="relative z-0 flex flex-col items-center">
+  <!-- Clouds slider -->
+  <div
+    class="absolute w-screen h-screen -top-[16vh] md:-top-[8vh] left-0 overflow-hidden z-10"
+  >
+    <div
+      class="w-full h-full bg-repeat-x bg-center animate-[x-slide-mobile_45s_linear_infinite] md:animate-[x-slide-desktop_60s_linear_infinite]"
+      style={`background-image: url(${clouds.src});`}
+    >
+    </div>
+  </div>
+
+  <!-- Decorative images -->
+  <img
+    id="computer"
+    class="absolute z-20 block right-[11vw] h-[18vh] md:h-[25vh] top-[35px] md:top-[calc(min(8vh,45px)-2vw-1px)]"
+    src={computer.src}
+    alt="computer"
+  />
+  <img
+    id="lamp"
+    class="absolute z-20 hidden md:left-[4vw] md:block md:h-[70vh] top-[calc(min(8vh,45px)-2vw-1px)]"
+    src={lamp.src}
+    alt="lamp"
+  />
+  <img
+    id="drawing"
+    class="absolute hidden z-20 md:block right-[10vw] top-[52vh] h-[18vh]"
+    src={drawing.src}
+    alt="drawing"
+  />
+  <img
+    id="leaves"
+    class="absolute z-20 block md:right-[3vw] right-[4vw] h-[40vh] md:h-[55vh] top-[35px] md:top-[calc(min(8vh,45px)-2vw-1px)]"
+    src={leaves.src}
+    alt="leaves and pencil"
+  />
+  <img
+    id="pencils"
+    class="absolute z-20 block right-[44vw] h-[32vh] md:right-[25vw] md:h-[45vh] top-[35px] md:top-[calc(min(8vh,45px)-2vw-1px)]"
+    src={pencils.src}
+    alt="pencils"
+  />
+
+  <!-- Intro text section -->
+  <div
+    id="intro"
+    class="z-30 mt-[47vh] md:mt-[45vh] px-[10vw] md:px-[20vw] flex flex-col gap-0 md:gap-1 mb-8 md:mb-10 w-full"
+  >
+    <div class="mb-1 md:mb-2">
+      <h1
+        id="first-name"
+        class="inline text-dark-teal font-display text-4xl md:text-6xl [-webkit-text-stroke:var(--text-stroke-sm)] md:[-webkit-text-stroke:var(--text-stroke)]"
+      >
+        emily
+      </h1>
+      <h1
+        id="last-name"
+        class="inline text-red font-display text-4xl md:text-6xl [-webkit-text-stroke:var(--text-stroke-sm)] md:[-webkit-text-stroke:var(--text-stroke)]"
+      >
+        hong
+      </h1>
+      <h1
+        id="is"
+        class="md:inline text-transparent font-display text-4xl md:text-6xl [-webkit-text-stroke:var(--text-stroke-sm)] md:[-webkit-text-stroke:var(--text-stroke)]"
+      >
+        is:
+      </h1>
+    </div>
+
+    <div class="flex flex-col gap-0.5 md:gap-2">
+      <a href="https://notion.so" class="w-fit">
+        <h2
+          class="inline px-0.5 hover:bg-yellow transition-colors text-xl md:text-3xl"
+        >
+          coding @ Notion
+        </h2>
+      </a>
+      <a href="https://www.instagram.com/elyhng" class="w-fit">
+        <h2
+          class="inline px-0.5 hover:bg-yellow transition-colors text-xl md:text-3xl"
+        >
+          making arts + crafts online
+        </h2>
+      </a>
+      <a href="/illustration" class="w-fit">
+        <h2
+          class="inline px-0.5 hover:bg-yellow transition-colors text-xl md:text-3xl"
+        >
+          illustrating
+        </h2>
+      </a>
+      <a
+        href="https://elyhng.notion.site/things-i-like-2220aa57d3c2807680dbc0fab330cb87"
+        class="w-fit"
+      >
+        <h2
+          class="inline px-0.5 hover:bg-yellow transition-colors text-xl md:text-3xl"
+        >
+          collecting things i like
+        </h2>
+      </a>
+    </div>
+  </div>
+
+  <!-- Box with flaps -->
+  <div class="flex w-full z-10 justify-center">
+    <!-- Left flap -->
+    <div
+      id="left"
+      class="hidden md:block md:relative w-[10vw] h-[4vh] origin-bottom-right -rotate-340 bottom-[4vh]"
+      style={`background-image: url(${cardboard.src});`}
+    >
+    </div>
+
+    <!-- Main box -->
+    <div
+      id="box"
+      class="w-full min-h-[28vh] max-w-[1000px] pb-20 bg-brown bg-cover"
+      style={`background-image: url(${cardboard.src}); background-size: cover;`}
+    >
+      <div class="pt-4 pb-16 px-[2vw]">
+        <!-- <a href="#stuff">
+          <h3
+            id="stuff"
+            class="absolute hover:underline hover:decoration-4 text-xl md:text-2xl left-[10vw] md:left-[20vw] font-semibold"
+          >
+            ↓ stuff I've done
+          </h3>
+        </a> -->
+      </div>
+
+      <!-- <div
+        class="flex flex-col md:flex-row gap-4 md:relative md:w-[105%] md:right-[5%]"
+      >
+        <div class="flex-shrink-0 mr-6">
+          <img
+            src={chapImage.src}
+            alt="PBHA Chinatown Afterschool Program"
+            class="object-cover w-full md:w-96 outline-[2.5px] hover:outline-yellow outline-dark-gray"
+          />
+        </div>
+        <div class="flex flex-col gap-2 mr-8">
+          <a
+            href="http://pbha.org/programs/chinatown-afterschool/"
+            class="text-dark-teal no-underline hover:text-teal"
+          >
+            <h4
+              class="text-xl md:text-2xl text-dark-gray font-semibold hover:bg-yellow bg-yellow/50 px-2 w-fit mb-2"
+            >
+              PBHA Chinatown Afterschool Program
+            </h4>
+          </a>
+          <p class="text-sm md:text-base text-white">
+            Chinatown Afterschool Program (CHAP) is the only free after school
+            program in Boston's Chinatown, serving 60+ elementary school
+            students with a team of 90+ counselors. I was a counselor from
+            2017-2022 and served as co-director of CHAP from 2020-2021. During
+            my director term, I transitioned the program online during a
+            pandemic, managed parent communication, re-vamped branding and
+            recruiting efforts, and coordinated day-to-day logistics.
+          </p>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- Right flap -->
+    <div
+      id="right"
+      class="hidden md:block md:relative w-[10vw] h-[4vh] origin-bottom-left -rotate-20 bottom-[4vh]"
+      style={`background-image: url(${cardboard.src});`}
+    >
+    </div>
+  </div>
+</div>
+
+<!-- Cloud animation -->
+<style>
+  /* Mobile-first: larger clouds */
+  .bg-repeat-x {
+    background-size: 180vw auto;
+  }
+
+  @keyframes x-slide-mobile {
+    from {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: -180vw;
+    }
+  }
+
+  /* Desktop: smaller clouds */
+  @media (min-width: 768px) {
+    .bg-repeat-x {
+      background-size: 65vw auto;
+    }
+  }
+
+  @keyframes x-slide-desktop {
+    from {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: -65vw;
+    }
+  }
+</style>

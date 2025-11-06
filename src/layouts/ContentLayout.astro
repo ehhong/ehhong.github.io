@@ -1,0 +1,17 @@
+---
+import VerticalNavigation from '../components/VerticalNavigation.astro';
+import BaseLayout from './BaseLayout.astro';
+---
+
+<BaseLayout>
+  <VerticalNavigation />
+  <main
+    class="bg-white w-full md:border-[1vw] border-white"
+  >
+    <div
+      class="relative max-w-[90vw] md:max-w-[min(800px,75vw)] mx-auto md:mt-[calc(min(8vh,45px)-2vw+5vh)] mb-[5vh] md:px-0"
+    >
+      <slot />
+    </div>
+  </main>
+</BaseLayout>

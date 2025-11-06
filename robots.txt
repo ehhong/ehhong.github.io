@@ -1,2 +1,0 @@
-User-agent: *     # all robots
-Allow: /          # please provide proper credit!

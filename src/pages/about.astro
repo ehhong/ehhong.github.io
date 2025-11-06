@@ -1,0 +1,135 @@
+---
+import Layout from '../layouts/Layout.astro';
+import profile from '../assets/profile.jpg';
+---
+
+<Layout>
+  <div
+    class="relative min-h-screen max-w-[95vw] md:max-w-[min(700px,60vw)] mx-auto pt-[8vh] md:pt-[calc(min(8vh,45px)-2vw+5vh)] pb-[5vh] px-[4vw] md:px-0 flex flex-col gap-2"
+  >
+    <div class="relative">
+      <div
+        class="float-left max-w-[450px] w-full md:w-[max(50%,300px)] mb-4 mr-6"
+      >
+        <div
+          id="tape"
+          class="hidden md:block w-[30px] h-[80px] bg-white/80 absolute top-[180px] -left-[18px]"
+        >
+        </div>
+        <img
+          class="profile w-full object-cover outline-[2.5px] outline-dark-gray"
+          src={profile.src}
+          alt="profile pic"
+        />
+      </div>
+
+      <div class="text-dark-gray text-2xl md:text-3xl font-normal mb-4">
+        <h2>nice to meet you,</h2>
+        <h2>i'm <span class="bg-clear-yellow">emily hong</span> 👋</h2>
+      </div>
+
+      <div class="text-sm md:text-base mb-4">
+        <p class="mb-4">
+          I live in NYC, and I write code @ <a
+            href="https://www.notion.com/"
+            class="text-dark-teal no-underline hover:text-teal">Notion</a
+          >. I like a lot of things, but I particularly like to think about art,
+          technology, and education.
+        </p>
+        <p>
+          When I'm not working, I'm probably exploring a grocery store, doodling
+          in a park, tickling the ivories, making crafts, or playing with my
+          food.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-4">
+      <div>
+        <h3 class="text-dark-gray text-2xl font-semibold mb-2">say hello!</h3>
+        <ul>
+          <li class="text-black text-base list-none">
+            📧 <a
+              href="mailto:elyhng@gmail.com"
+              class="text-dark-teal no-underline hover:text-teal font-bold"
+              >elyhng@gmail.com</a
+            >
+          </li>
+          <li>
+            ✂️ <a
+              href="https://www.instagram.com/elyhng"
+              class="text-dark-teal no-underline hover:text-teal font-bold"
+              >@elyhng</a
+            > on instagram
+          </li>
+          <li>
+            💻 <a
+              href="https://www.linkedin.com/in/emily-h-5a2050168/"
+              class="text-dark-teal no-underline hover:text-teal font-bold"
+              >professional emily</a
+            > on linkedin
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col gap-2">
+        <h3 class="text-dark-gray text-2xl font-semibold">
+          about this website
+        </h3>
+        <div>
+          <h4 class="text-red font-semibold">tech tools used</h4>
+          <ul class="text-black text-base list-disc list-inside">
+            <li>
+              <a
+                href="https://pages.github.com/"
+                class="text-dark-teal no-underline hover:text-teal"
+                >github pages</a
+              > – free static site hosting
+            </li>
+            <li>
+              <a
+                href="https://astro.build/"
+                class="text-dark-teal no-underline hover:text-teal">astro</a
+              > – web framework
+            </li>
+            <li>
+              <a
+                href="https://reactjs.org/"
+                class="text-dark-teal no-underline hover:text-teal">react</a
+              > – frontend components
+            </li>
+            <li>
+              <a
+                href="https://tailwindcss.com/"
+                class="text-dark-teal no-underline hover:text-teal">tailwind</a
+              > – css framework
+            </li>
+            <li>
+              <a
+                href="https://www.cursor.com/"
+                class="text-dark-teal no-underline hover:text-teal">cursor</a
+              > :)
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-red font-semibold">design tools used</h4>
+          <ul class="text-black text-base list-disc list-inside">
+            <li>adobe illustrator – home page graphics</li>
+            <li>
+              fonts – <a
+                href="https://fonts.google.com/specimen/Space+Grotesk"
+                class="text-dark-teal no-underline hover:text-teal"
+                >space grotesk</a
+              > (google fonts) and <a
+                href="https://pangrampangram.com/products/neue-machina"
+                class="text-dark-teal no-underline hover:text-teal"
+                >neue machina</a
+              > (pangram pangram foundry)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

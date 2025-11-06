@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Gatwick';
+  src: url('../../public/fonts/Gatwick-Bold.eot');
+  src:
+    url('../../public/fonts/Gatwick-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../public/fonts/Gatwick-Bold.woff2') format('woff2'),
+    url('../../public/fonts/Gatwick-Bold.woff') format('woff'),
+    url('../../public/fonts/Gatwick-Bold.ttf') format('truetype'),
+    url('../../public/fonts/Gatwick-Bold.svg#Gatwick-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-display: 'Gatwick', sans-serif;
+  --font-sans: 'Space Grotesk', sans-serif;
+  --color-beige: #ddcfaf;
+  --color-brown: #a5802f;
+  --color-dark-gray: #333333;
+  --color-teal: #0ca5a0;
+  --color-bright-teal: #39d3b5;
+  --color-dark-teal: #20666d;
+  --color-red: #ba3c3c;
+  --color-yellow: #f9e426;
+  --color-clear-yellow: #f9e426bb;
+  --text-stroke: 2px #333333;
+  --text-stroke-sm: 1.5px #333333;
+}

@@ -1,0 +1,100 @@
+---
+import actsOfService from '../../assets/illustration/acts-of-service.jpg';
+import circe from '../../assets/illustration/circe.png';
+import oceanNoodles from '../../assets/illustration/ocean-noodles.png';
+import stilts from '../../assets/illustration/stilts.png';
+import wildGeeseFull from '../../assets/illustration/wild-geese_full.png';
+import wildGeeseThumb from '../../assets/illustration/wild-geese_thumb.png';
+import work from '../../assets/illustration/work.jpg';
+import VerticalNavigation from '../../components/VerticalNavigation.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+type Illustration = {
+  id: string;
+  name: string;
+  src: string;
+  fullSrc?: string;
+  alt: string;
+  description?: string;
+  shouldExtendBeyondScreen?: boolean;
+};
+
+export const illustrations: Record<string, Illustration> = {
+  'acts-of-service': {
+    id: 'acts-of-service',
+    name: 'Acts of Service',
+    src: actsOfService.src,
+    alt: 'acts of service illustration',
+    description: 'A COVID-19 pandemic memory.',
+  },
+  circe: {
+    id: 'circe',
+    name: 'Circe',
+    src: circe.src,
+    alt: 'circe illustration',
+    description:
+      "Based on Madeline Miller's 2018 reimagining of the Greek myth.",
+  },
+  'ocean-noodles': {
+    id: 'ocean-noodles',
+    name: 'Ocean Noodles',
+    src: oceanNoodles.src,
+    alt: 'ocean noodles illustration',
+    description: 'Home, sweet home.',
+  },
+  stilts: {
+    id: 'stilts',
+    name: 'Stilts',
+    src: stilts.src,
+    alt: 'stilts illustration',
+    description: 'Pluck.',
+  },
+  'wild-geese': {
+    id: 'wild-geese',
+    name: 'Wild Geese',
+    src: wildGeeseThumb.src,
+    fullSrc: wildGeeseFull.src,
+    alt: 'wild geese illustration',
+    description: 'Words by Mary Oliver',
+    shouldExtendBeyondScreen: true,
+  },
+  work: {
+    id: 'work',
+    name: 'Work',
+    src: work.src,
+    alt: 'work illustration',
+    description: 'Click click click.',
+  },
+};
+---
+
+<BaseLayout>
+  <VerticalNavigation />
+  <main class="bg-white w-full min-h-screen">
+    <div
+      class="relative max-w-[95vw] md:max-w-[min(1000px,80vw)] mx-auto md:float-right md:mr-[10vw] md:mt-[calc(min(8vh,45px)-2vw+5vh)] pb-20 px-[2.5vw] md:px-0"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {
+          Object.values(illustrations).map(illustration => (
+            <a
+              class="block group no-underline text-inherit"
+              href={`/illustration/${illustration.id}`}
+            >
+              <div
+                class="relative overflow-hidden duration-300 cursor-pointer w-full aspect-4/5"
+                title={illustration.name}
+              >
+                <img
+                  src={illustration.src}
+                  alt={illustration.alt}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </main>
+</BaseLayout>

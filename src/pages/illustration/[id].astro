@@ -1,0 +1,30 @@
+---
+import ContentLayout from '../../layouts/ContentLayout.astro';
+import { illustrations } from './index.astro';
+
+export function getStaticPaths() {
+  return Object.values(illustrations).map(illustration => ({
+    params: { id: illustration.id },
+  }));
+}
+
+const { id } = Astro.params;
+const illustration = illustrations[id];
+---
+
+<ContentLayout>
+  <div class="flex flex-col md:flex-row w-full gap-8 items-start md:items-end">
+    <img
+      src={illustration.fullSrc ?? illustration.src}
+      alt={illustration.alt}
+      class:list={[
+        'object-contain',
+        !illustration.shouldExtendBeyondScreen ? 'max-h-[80vh]' : '',
+      ]}
+    />
+    <div class="w-[250px] outline outline-beige p-2">
+      <h2 class="text-base font-semibold">{illustration.name}</h2>
+      <p class="text-sm/tight">{illustration.description}</p>
+    </div>
+  </div>
+</ContentLayout>
