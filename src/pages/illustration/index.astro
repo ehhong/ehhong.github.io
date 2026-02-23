@@ -1,13 +1,14 @@
 ---
-import actsOfService from '../../assets/illustration/acts-of-service.jpg';
-import circe from '../../assets/illustration/circe.png';
-import oceanNoodles from '../../assets/illustration/ocean-noodles.png';
-import stilts from '../../assets/illustration/stilts.png';
-import wildGeeseFull from '../../assets/illustration/wild-geese_full.png';
-import wildGeeseThumb from '../../assets/illustration/wild-geese_thumb.png';
-import work from '../../assets/illustration/work.jpg';
-import VerticalNavigation from '../../components/VerticalNavigation.astro';
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import actsOfService from "../../assets/illustration/acts-of-service.jpg";
+import circe from "../../assets/illustration/circe.png";
+import friendsOnAHorse from "../../assets/illustration/friends_on_a_horse.jpg";
+import oceanNoodles from "../../assets/illustration/ocean-noodles.png";
+import stilts from "../../assets/illustration/stilts.png";
+import wildGeeseFull from "../../assets/illustration/wild-geese_full.png";
+import wildGeeseThumb from "../../assets/illustration/wild-geese_thumb.png";
+import work from "../../assets/illustration/work.jpg";
+import VerticalNavigation from "../../components/VerticalNavigation.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 
 type Illustration = {
   id: string;
@@ -20,50 +21,57 @@ type Illustration = {
 };
 
 export const illustrations: Record<string, Illustration> = {
-  'acts-of-service': {
-    id: 'acts-of-service',
-    name: 'Acts of Service',
+  "acts-of-service": {
+    id: "acts-of-service",
+    name: "Acts of Service",
     src: actsOfService.src,
-    alt: 'acts of service illustration',
-    description: 'A COVID-19 pandemic memory.',
+    alt: "acts of service illustration",
+    description: "A COVID-19 pandemic memory.",
   },
   circe: {
-    id: 'circe',
-    name: 'Circe',
+    id: "circe",
+    name: "Circe",
     src: circe.src,
-    alt: 'circe illustration',
+    alt: "circe illustration",
     description:
       "Based on Madeline Miller's 2018 reimagining of the Greek myth.",
   },
-  'ocean-noodles': {
-    id: 'ocean-noodles',
-    name: 'Ocean Noodles',
+  "ocean-noodles": {
+    id: "ocean-noodles",
+    name: "Ocean Noodles",
     src: oceanNoodles.src,
-    alt: 'ocean noodles illustration',
-    description: 'Home, sweet home.',
+    alt: "ocean noodles illustration",
+    description: "Home, sweet home.",
   },
-  stilts: {
-    id: 'stilts',
-    name: 'Stilts',
-    src: stilts.src,
-    alt: 'stilts illustration',
-    description: 'Pluck.',
-  },
-  'wild-geese': {
-    id: 'wild-geese',
-    name: 'Wild Geese',
+  "wild-geese": {
+    id: "wild-geese",
+    name: "Wild Geese",
     src: wildGeeseThumb.src,
     fullSrc: wildGeeseFull.src,
-    alt: 'wild geese illustration',
-    description: 'Words by Mary Oliver',
+    alt: "wild geese illustration",
+    description: "Words by Mary Oliver",
     shouldExtendBeyondScreen: true,
   },
+  stilts: {
+    id: "stilts",
+    name: "Stilts",
+    src: stilts.src,
+    alt: "stilts illustration",
+    description: "Pluck.",
+  },
+  "friends-on-a-horse": {
+    id: "friends-on-a-horse",
+    name: "Friends on a horse",
+    src: friendsOnAHorse.src,
+    alt: "friends on a horse illustration",
+    description: "Happy 2026, year of the horse!",
+  },
   work: {
-    id: 'work',
-    name: 'Work',
+    id: "work",
+    name: "Work",
     src: work.src,
-    alt: 'work illustration',
-    description: 'Click click click.',
+    alt: "work illustration",
+    description: "Click click click.",
   },
 };
 ---
@@ -76,7 +84,7 @@ export const illustrations: Record<string, Illustration> = {
     >
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         {
-          Object.values(illustrations).map(illustration => (
+          Object.values(illustrations).map((illustration) => (
             <a
               class="block group no-underline text-inherit"
               href={`/illustration/${illustration.id}`}
